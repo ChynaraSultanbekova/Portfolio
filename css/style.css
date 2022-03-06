@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  color: var(--accent #7149a7d5);
+  color: var(--accent, #3d1077d5);
 }
 
 .container {
@@ -146,11 +146,11 @@ body {
   border-radius: 5px;
 }
 
-.code-example {
+.code {
   text-align: center;
 }
 
-.code-example pre {
+.code pre {
   width: 85%;
   margin: 0 auto;
   text-align: left;
@@ -158,4 +158,38 @@ body {
   color: var(--pure-white);
   background-color: var(--accent);
   border-radius: 8px;
+}
+
+.languages {
+  text-align: center;
+}
+
+.languages ul {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.languages li {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.education {
+  margin: 40px 0;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+
+.education ul {
+  text-align: left;
+}
+
+.education li {
+  padding: 10px 10px;
+}
+footer {
+  text-align: center;
 }
